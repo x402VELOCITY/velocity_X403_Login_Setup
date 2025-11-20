@@ -18,22 +18,8 @@ app.add_middleware(
     audience="[velocity endpoint]",
     issuer="velocity-v1",
     excluded_paths=[
-                    "/setupaccount",
-                    "/checkaccount", 
-                    "/register_endpoint",
-                    "/register_dynamic_endpoint",
-                    "/delete_endpoint",
-                    "/delete_dynamic_endpoint",
-                    "/checkendpoints",
-                    "/checkdynamicendpoints",
-                    "/update_dynamic_endpoint",
-                    "/update_endpoint_price",
-                    "/update_dynamic_endpoint_price",
-                    "/docs",
-                    "/openapi.json",
-                    "/invoices"
-                   
-                   ]
+                    "excluded paths here"
+                    ]
                 )
 
 
