@@ -33,7 +33,6 @@ function CApp() {
 
     return (
         <div>
-            <h1>X403</h1>
             {address ? (
                 <p>✅ Connected as: {address}</p>
                 ) : (
